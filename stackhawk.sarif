@@ -11,7 +11,7 @@
           "scanId": "d7ea9bb4-6da5-483a-be55-e615ecaa64de"
         },
         "rules": [{
-          "id": "d7ea9bb4-6da5-483a-be55-e615ecaa64de-40018-0",
+          "id": "SqlInjectionPostgreSql",
           "name": "SqlInjectionPostgreSql",
           "helpUri": "https://app.stackhawk.com/scans/d7ea9bb4-6da5-483a-be55-e615ecaa64de/finding/40018",
           "help": {
@@ -23,7 +23,7 @@
             "security-severity": "8.0"
           },
           "shortDescription": {
-            "text": "SQL Injection - PostgreSQL"
+            "text": "Details for SQL Injection - PostgreSQL can be found here: https://app.stackhawk.com/scans/d7ea9bb4-6da5-483a-be55-e615ecaa64de/finding/40018"
           },
           "fullDescription": {
             "text": "SQL Injection - PostgreSQL"
@@ -285,15 +285,15 @@
       }
     },
     "results": [{
-      "ruleId": "d7ea9bb4-6da5-483a-be55-e615ecaa64de-40018-0",
+      "ruleId": "SqlInjectionPostgreSql",
       "message": {
-        "text": "SQL Injection - PostgreSQL",
-        "markdown": "SQL Injection - PostgreSQL"
+        "text": "Details for SQL Injection - PostgreSQL at https://localhost:9000/api/jwt/items/search can be found here: https://app.stackhawk.com/scans/d7ea9bb4-6da5-483a-be55-e615ecaa64de/finding/40018",
+        "markdown": "marky Details for SQL Injection - PostgreSQL at https://localhost:9000/api/jwt/items/search can be found here: https://app.stackhawk.com/scans/d7ea9bb4-6da5-483a-be55-e615ecaa64de/finding/40018"
       },
       "locations": [{
         "physicalLocation": {
           "artifactLocation": {
-            "uri": "hawkscan/https://localhost:9000/api/jwt/items/search"
+            "uri": "/api/jwt/items/search"
           },
           "region": {
             "startLine": 1
@@ -301,18 +301,18 @@
         }
       }],
       "partialFingerprints": {
-        "4.0.0": "d7ea9bb4-6da5-483a-be55-e615ecaa64de-40018-0"
+        "4.0.0": "d7ea9bb4-6da5-483a-be55-e615ecaa64de-40018-0-0"
       }
     }, {
-      "ruleId": "d7ea9bb4-6da5-483a-be55-e615ecaa64de-40018-1",
+      "ruleId": "SqlInjectionPostgreSql",
       "message": {
-        "text": "SQL Injection - PostgreSQL",
-        "markdown": "SQL Injection - PostgreSQL"
+        "text": "Details for SQL Injection - PostgreSQL at https://localhost:9000/api/jwt/items/search/%27 can be found here: https://app.stackhawk.com/scans/d7ea9bb4-6da5-483a-be55-e615ecaa64de/finding/40018",
+        "markdown": "marky Details for SQL Injection - PostgreSQL at https://localhost:9000/api/jwt/items/search/%27 can be found here: https://app.stackhawk.com/scans/d7ea9bb4-6da5-483a-be55-e615ecaa64de/finding/40018"
       },
       "locations": [{
         "physicalLocation": {
           "artifactLocation": {
-            "uri": "hawkscan/https://localhost:9000/api/jwt/items/search/%27"
+            "uri": "/api/jwt/items/search/%27"
           },
           "region": {
             "startLine": 1
@@ -320,18 +320,18 @@
         }
       }],
       "partialFingerprints": {
-        "4.0.0": "d7ea9bb4-6da5-483a-be55-e615ecaa64de-40018-1"
+        "4.0.0": "d7ea9bb4-6da5-483a-be55-e615ecaa64de-40018-0-1"
       }
     }, {
-      "ruleId": "d7ea9bb4-6da5-483a-be55-e615ecaa64de-40018-2",
+      "ruleId": "SqlInjectionPostgreSql",
       "message": {
-        "text": "SQL Injection - PostgreSQL",
-        "markdown": "SQL Injection - PostgreSQL"
+        "text": "Details for SQL Injection - PostgreSQL at https://localhost:9000/api/jwt/items/search/%27 can be found here: https://app.stackhawk.com/scans/d7ea9bb4-6da5-483a-be55-e615ecaa64de/finding/40018",
+        "markdown": "marky Details for SQL Injection - PostgreSQL at https://localhost:9000/api/jwt/items/search/%27 can be found here: https://app.stackhawk.com/scans/d7ea9bb4-6da5-483a-be55-e615ecaa64de/finding/40018"
       },
       "locations": [{
         "physicalLocation": {
           "artifactLocation": {
-            "uri": "hawkscan/https://localhost:9000/api/jwt/items/search/%27"
+            "uri": /api/jwt/items/search/%27"
           },
           "region": {
             "startLine": 1
@@ -339,18 +339,18 @@
         }
       }],
       "partialFingerprints": {
-        "4.0.0": "d7ea9bb4-6da5-483a-be55-e615ecaa64de-40018-2"
+        "4.0.0": "d7ea9bb4-6da5-483a-be55-e615ecaa64de-40018-0-2"
       }
     }, {
-      "ruleId": "d7ea9bb4-6da5-483a-be55-e615ecaa64de-40018-3",
+      "ruleId": "SqlInjectionPostgreSql",
       "message": {
-        "text": "SQL Injection - PostgreSQL",
-        "markdown": "SQL Injection - PostgreSQL"
+        "text": "Details for SQL Injection - PostgreSQL at https://localhost:9000/api/jwt/users/search/bad/%27 can be found here: https://app.stackhawk.com/scans/d7ea9bb4-6da5-483a-be55-e615ecaa64de/finding/40018",
+        "markdown": "marky Details for SQL Injection - PostgreSQL at https://localhost:9000/api/jwt/users/search/bad/%27 can be found here: https://app.stackhawk.com/scans/d7ea9bb4-6da5-483a-be55-e615ecaa64de/finding/40018"
       },
       "locations": [{
         "physicalLocation": {
           "artifactLocation": {
-            "uri": "hawkscan/https://localhost:9000/api/jwt/users/search/bad/%27"
+            "uri": "/api/jwt/users/search/bad/%27"
           },
           "region": {
             "startLine": 1
@@ -358,7 +358,7 @@
         }
       }],
       "partialFingerprints": {
-        "4.0.0": "d7ea9bb4-6da5-483a-be55-e615ecaa64de-40018-3"
+        "4.0.0": "d7ea9bb4-6da5-483a-be55-e615ecaa64de-40018-0-3"
       }
     }, {
       "ruleId": "d7ea9bb4-6da5-483a-be55-e615ecaa64de-40008-4",
