@@ -15,8 +15,8 @@
           "name": "SqlInjectionPostgreSql",
           "helpUri": "https://app.stackhawk.com/scans/d7ea9bb4-6da5-483a-be55-e615ecaa64de/finding/40018",
           "help": {
-            "text": "Details for SQL Injection - PostgreSQL at https://localhost:9000/api/jwt/items/search can be found here: https://app.stackhawk.com/scans/d7ea9bb4-6da5-483a-be55-e615ecaa64de/finding/40018",
-            "markdown": "Details for [SQL Injection - PostgreSQL](https://app.stackhawk.com/scans/d7ea9bb4-6da5-483a-be55-e615ecaa64de/finding/40018) at `https://localhost:9000/api/jwt/items/search`"
+            "text": "This is helpe text",
+            "markdown": "This is help markdown"
           },
           "properties": {
             "tags": ["CWE-89", "WASC-19"],
