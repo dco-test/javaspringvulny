@@ -11,7 +11,7 @@
           "scanId": "d7ea9bb4-6da5-483a-be55-e615ecaa64de"
         },
         "rules": [{
-          "id": "SqlInjectionPostgreSql",
+          "id": "sql-inpection-postres-sql",
           "name": "SqlInjectionPostgreSql",
           "helpUri": "https://app.stackhawk.com/scans/d7ea9bb4-6da5-483a-be55-e615ecaa64de/finding/40018",
           "help": {
@@ -23,7 +23,7 @@
             "security-severity": "8.0"
           },
           "shortDescription": {
-            "text": "SQL Injection - PostgreSQL"
+            "text": "SQL Injection - PostgreSQL Shorty"
           },
           "fullDescription": {
             "text": "SQL Injection - PostgreSQL"
@@ -285,9 +285,9 @@
       }
     },
     "results": [{
-      "ruleId": "SqlInjectionPostgreSql",
+      "ruleId": "sql-inpection-postres-sql",
       "message": {
-        "text": "Details for SQL Injection - PostgreSQL at https://localhost:9000/api/jwt/items/search can be found here: https://app.stackhawk.com/scans/d7ea9bb4-6da5-483a-be55-e615ecaa64de/finding/40018",
+        "text": "texty Details for SQL Injection - PostgreSQL at https://localhost:9000/api/jwt/items/search can be found here: https://app.stackhawk.com/scans/d7ea9bb4-6da5-483a-be55-e615ecaa64de/finding/40018",
         "markdown": "marky Details for SQL Injection - PostgreSQL at https://localhost:9000/api/jwt/items/search can be found here: https://app.stackhawk.com/scans/d7ea9bb4-6da5-483a-be55-e615ecaa64de/finding/40018"
       },
       "locations": [{
@@ -304,9 +304,9 @@
         "4.0.0": "d7ea9bb4-6da5-483a-be55-e615ecaa64de-40018-0-0"
       }
     }, {
-      "ruleId": "SqlInjectionPostgreSql",
+      "ruleId": "sql-inpection-postres-sql",
       "message": {
-        "text": "Details for SQL Injection - PostgreSQL at https://localhost:9000/api/jwt/items/search/%27 can be found here: https://app.stackhawk.com/scans/d7ea9bb4-6da5-483a-be55-e615ecaa64de/finding/40018",
+        "text": "texty Details for SQL Injection - PostgreSQL at https://localhost:9000/api/jwt/items/search/%27 can be found here: https://app.stackhawk.com/scans/d7ea9bb4-6da5-483a-be55-e615ecaa64de/finding/40018",
         "markdown": "marky Details for SQL Injection - PostgreSQL at https://localhost:9000/api/jwt/items/search/%27 can be found here: https://app.stackhawk.com/scans/d7ea9bb4-6da5-483a-be55-e615ecaa64de/finding/40018"
       },
       "locations": [{
@@ -323,9 +323,9 @@
         "4.0.0": "d7ea9bb4-6da5-483a-be55-e615ecaa64de-40018-0-1"
       }
     }, {
-      "ruleId": "SqlInjectionPostgreSql",
+      "ruleId": "sql-inpection-postres-sql",
       "message": {
-        "text": "Details for SQL Injection - PostgreSQL at https://localhost:9000/api/jwt/items/search/%27 can be found here: https://app.stackhawk.com/scans/d7ea9bb4-6da5-483a-be55-e615ecaa64de/finding/40018",
+        "text": "texty Details for SQL Injection - PostgreSQL at https://localhost:9000/api/jwt/items/search/%27 can be found here: https://app.stackhawk.com/scans/d7ea9bb4-6da5-483a-be55-e615ecaa64de/finding/40018",
         "markdown": "marky Details for SQL Injection - PostgreSQL at https://localhost:9000/api/jwt/items/search/%27 can be found here: https://app.stackhawk.com/scans/d7ea9bb4-6da5-483a-be55-e615ecaa64de/finding/40018"
       },
       "locations": [{
@@ -342,9 +342,9 @@
         "4.0.0": "d7ea9bb4-6da5-483a-be55-e615ecaa64de-40018-0-2"
       }
     }, {
-      "ruleId": "SqlInjectionPostgreSql",
+      "ruleId": "sql-inpection-postres-sql",
       "message": {
-        "text": "Details for SQL Injection - PostgreSQL at https://localhost:9000/api/jwt/users/search/bad/%27 can be found here: https://app.stackhawk.com/scans/d7ea9bb4-6da5-483a-be55-e615ecaa64de/finding/40018",
+        "text": "texty Details for SQL Injection - PostgreSQL at https://localhost:9000/api/jwt/users/search/bad/%27 can be found here: https://app.stackhawk.com/scans/d7ea9bb4-6da5-483a-be55-e615ecaa64de/finding/40018",
         "markdown": "marky Details for SQL Injection - PostgreSQL at https://localhost:9000/api/jwt/users/search/bad/%27 can be found here: https://app.stackhawk.com/scans/d7ea9bb4-6da5-483a-be55-e615ecaa64de/finding/40018"
       },
       "locations": [{
