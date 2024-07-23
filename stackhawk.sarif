@@ -293,7 +293,7 @@
       "locations": [{
         "physicalLocation": {
           "artifactLocation": {
-            "uri": "/api/jwt/items/search"
+            "uri": "api/jwt/items/search"
           },
           "region": {
             "startLine": 1
@@ -312,7 +312,7 @@
       "locations": [{
         "physicalLocation": {
           "artifactLocation": {
-            "uri": "/api/jwt/items/search/%27"
+            "uri": "api/jwt/items/search/%27"
           },
           "region": {
             "startLine": 1
@@ -331,7 +331,7 @@
       "locations": [{
         "physicalLocation": {
           "artifactLocation": {
-            "uri": /api/jwt/items/search/%27"
+            "uri": "api/jwt/items/search/%27"
           },
           "region": {
             "startLine": 1
@@ -350,7 +350,7 @@
       "locations": [{
         "physicalLocation": {
           "artifactLocation": {
-            "uri": "/api/jwt/users/search/bad/%27"
+            "uri": "api/jwt/users/search/bad/%27"
           },
           "region": {
             "startLine": 1
