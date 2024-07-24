@@ -29,7 +29,7 @@
             "text": "Proxy Disclosure"
           }
         }, {
-          "id": "session-id-expiry-time/max-age-is-excessive",
+          "id": "session-id-expiry-time-max-age-is-excessive",
           "name": "SessionIDExpiryTimeMaxAgeisExcessive",
           "helpUri": "https://app.test.stackhawk.com/scans/16962713-f2a7-4e33-a34e-3299c2f805b2/finding/40013",
           "help": {
@@ -335,7 +335,7 @@
         "4.0.11": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       }
     }, {
-      "ruleId": "session-id-expiry-time/max-age-is-excessive",
+      "ruleId": "session-id-expiry-time-max-age-is-excessive",
       "message": {
         "text": "Details for Session ID Expiry Time/Max-Age is Excessive at https://localhost:9000/login can be found here: https://app.test.stackhawk.com/scans/16962713-f2a7-4e33-a34e-3299c2f805b2/finding/40013",
         "markdown": "Details for [Session ID Expiry Time/Max-Age is Excessive](https://app.test.stackhawk.com/scans/16962713-f2a7-4e33-a34e-3299c2f805b2/finding/40013) at `https://localhost:9000/login`"
