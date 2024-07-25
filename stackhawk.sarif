@@ -116,7 +116,7 @@
       "locations": [{
         "physicalLocation": {
           "artifactLocation": {
-            "uri": "[root]"
+            "uri": "?stuff"
           },
           "region": {
             "startLine": 1
