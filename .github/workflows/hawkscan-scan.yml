@@ -53,4 +53,4 @@ jobs:
         uses: microsoft/security-devops-action@v1
         id: msdo
         with:
-          existingFilename: stackhawk.sarif
+          existingFilename: stackhawk.d/stackhawk.sarif
